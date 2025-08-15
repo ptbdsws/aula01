@@ -21,8 +21,7 @@ def codigosStatus():
 
 @app.route('/objetoresposta')
 def objetoresposta():
-    response = make_response('<h1>This document carries a cookie!</h1>')
-    response.set_cookie('answer', '42')
+    return '<h1>This document carries a cookie!</h1>'
     
 @app.route('/redirecionamento')
 def redirecionamento():
